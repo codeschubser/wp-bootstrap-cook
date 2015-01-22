@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Bootstrap Cook v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-20 13:59:53+0000\n"
+"Last-Translator: devpressor <blog@codeschubser.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:13
+#@ wpbscook
+msgid "We're sorry..."
+msgstr "Es tut uns leid..."
+
+#: 404.php:15
+#@ wpbscook
+msgid "The page you are looking for cannot be found."
+msgstr "Die gewünschte Seite konnte nicht gefunden werden."
+
+#: 404.php:18
+#@ wpbscook
+msgid "Return to the homepage"
+msgstr "Zurück zur Startseite"
+
+#: comments.php:15
+#, php-format
+#@ wpbscook
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
+
+#: comments.php:22
+#@ wpbscook
+msgid "Comment navigation"
+msgstr "Kommentar Navigation"
+
+#: comments.php:25
+#@ wpbscook
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: comments.php:29
+#@ wpbscook
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: content-none.php:14
+#@ wpbscook
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: content-none.php:16
+#@ wpbscook
+msgid "Sorry, but the content you are looking for has not been found."
+msgstr "Es tut uns leid, aber der gesuchte Inhalt konnte nicht gefunden werden."
+
+#: content.php:10
+#@ wpbscook
+msgid "Read more"
+msgstr "weiterlesen"
+
+#: entry-footer.php:10
+#: entry-footer.php:12
+#: loop-single.php:60
+#, php-format
+#@ wpbscook
+msgid "One comment"
+msgid_plural "%s comments"
+msgstr[0] "Ein Kommentar"
+msgstr[1] "%s Kommentare"
+
+#: functions.php:96
+#@ wpbscook
+msgid "Primary left menu"
+msgstr "Hauptmenü links"
+
+#: functions.php:97
+#@ wpbscook
+msgid "primary right menu"
+msgstr "Hauptmenü rechts"
+
+#: functions.php:141
+#@ wpbscook
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: functions.php:143
+#@ wpbscook
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Hier eingefügt Widgets werden in Ihrer Seitenleiste angezeigt."
+
+#: functions.php:151
+#@ wpbscook
+msgid "Left footer sidebar"
+msgstr "Fußleiste links"
+
+#: functions.php:153
+#@ wpbscook
+msgid "Add widgets here to appear in your left footer sidebar."
+msgstr "Hier eingefügte Widgets werden in der linken Fußzeile angezeigt."
+
+#: functions.php:161
+#@ wpbscook
+msgid "Middle footer sidebar"
+msgstr "Fußleiste Mitte"
+
+#: functions.php:163
+#@ wpbscook
+msgid "Add widgets here to appear in your middle footer sidebar."
+msgstr "Hier eingefügte Widgets werden in der mittleren Fußzeile angezeigt."
+
+#: functions.php:171
+#@ wpbscook
+msgid "Right footer sidebar"
+msgstr "Fußleiste rechts"
+
+#: functions.php:173
+#@ wpbscook
+msgid "Add widgets here to appear in your right footer sidebar."
+msgstr "Hier eingefügte Widgets werden in der rechten Fußzeile angezeigt."
+
+#: functions.php:181
+#@ wpbscook
+msgid "Left bottom sidebar"
+msgstr "Linke untere Seitenleiste"
+
+#: functions.php:183
+#@ wpbscook
+msgid "Add widgets here to appear in your left copyright footer sidebar."
+msgstr "Hier eingefügte Widgets werden in der unteren linken Fußzeile angezeigt. (Beispiel: Copyright-Hinweis)"
+
+#: functions.php:191
+#@ wpbscook
+msgid "Right bottom sidebar"
+msgstr "Rechte untere Seitenleiste"
+
+#: functions.php:193
+#@ wpbscook
+msgid "Add widgets here to appear in your right copyright footer sidebar."
+msgstr "Hier eingefügte Widgets werden in der unteren rechten Fußzeile angezeigt. (Beispiel: Impressum)"
+
+#: functions.php:290
+#, php-format
+#@ wpbscook
+msgid "<span itemprop=\"author\">%1$s</span>: <time itemprop=\"dateCreated\" datetime=\"%4$s\">%2$s at %3$s</time>"
+msgstr "<span itemprop=\"author\">%1$s</span>: <time itemprop=\"dateCreated\" datetime=\"%4$s\">%2$s um %3$s</time>"
+
+#: functions.php:343
+#@ wpbscook
+msgid "Name"
+msgstr "Name"
+
+#: functions.php:346
+#@ wpbscook
+msgid "Email"
+msgstr "E-Mail"
+
+#: functions.php:349
+#@ wpbscook
+msgid "Website"
+msgstr "Webseite"
+
+#: functions.php:372
+#@ wpbscook
+msgid "Comment"
+msgstr "Kommentar"
+
+#: functions.php:389
+#@ wpbscook
+msgid "Post a comment"
+msgstr "Kommentar verfassen"
+
+#: header.php:35
+#@ wpbscook
+msgid "Toggle navigation"
+msgstr "Navigation umschalten"
+
+#: includes/back-compat.php:40
+#: includes/back-compat.php:52
+#: includes/back-compat.php:68
+#, php-format
+#@ wpbscook
+msgid "WP Bootstrap Cook requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "WP Bootstrap Cook benötigt mindestens WordPress Version 4.1. Ihre Version ist die %s. Bitte aktualisieren Sie WordPress und versuchen es dann erneut."
+
+#: includes/widgets.php:69
+#@ wpbscook
+msgid "Pages"
+msgstr "Seiten"
+
+#: includes/widgets.php:155
+#@ wpbscook
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: loop-single.php:72
+#, php-format
+#@ wpbscook
+msgid "Print: %s"
+msgstr "%s drucken"
+
+#: loop-single.php:84
+#@ wpbscook
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: loop-single.php:89
+#@ wpbscook
+msgid "Page"
+msgstr "Seite"
+
+#: pagination.php:3
+#@ wpbscook
+msgid "Previous Entries"
+msgstr "Vorherige Artikel"
+
+#: pagination.php:4
+#@ wpbscook
+msgid "Next Entries"
+msgstr "Weitere Artikel"
+
+#: searchform.php:13
+#: searchform.php:21
+#@ wpbscook
+msgid "Search"
+msgstr "Suchen"
+
+#: slider.php:47
+#@ wpbscook
+msgid "Previous"
+msgstr "Vorherige"
+
