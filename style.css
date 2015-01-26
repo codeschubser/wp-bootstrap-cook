@@ -42,6 +42,11 @@ footer#footer {
 a { color: #723f32 !important; text-decoration: underline }
 a:hover { color: #959d3b !important }
 .pager a { text-decoration: none }
+a[target="_blank"]:after {
+    content: "\0020\f08e";
+    font-family: 'FontAwesome';
+    font-size: .9em
+}
 
 #wpadminbar a { color: #ccc !important; }
 
@@ -113,7 +118,7 @@ h2.entry-title a:hover { text-decoration: none !important }
     padding: 10px;
     background-color: #FCF8F1;
 }
-.entry-meta { margin: 0 10px 10px 20px }
+.entry-meta { margin: 0 0 10px 20px }
 .entry-meta ul.list-inline { margin-bottom: 0 }
 .entry-tags { margin-bottom: 10px }
 
