@@ -319,7 +319,7 @@ function wpbscook_register_styles()
             get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '3.3.2');
         // Font awesome stylesheet
         wp_register_style('wpbscook_fontawesome',
-            get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(), '4.2.0');
+            get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(), '4.3.0');
         // Google font great vibes stylesheet
         wp_register_style('wpbscook_greatvibes', '//fonts.googleapis.com/css?family=Great+Vibes',
             array(), null);
