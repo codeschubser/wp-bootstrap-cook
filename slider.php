@@ -21,13 +21,6 @@ endif;
 if (!empty($featured_posts)) :
 ?>
 <div id="last-posts" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <!--<ol class="carousel-indicators">
-        <?php for ($i = 0; $i < count($featured_posts); $i++) : ?>
-        <li data-target="#last-posts" data-slide-to="<?php echo $i; ?>"<?php if ($i === 0) echo ' class="active"'; ?>></li>
-        <?php endfor; ?>
-    </ol>-->
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
             <?php for ($i = 0; $i < count($featured_posts); $i++) : ?>
@@ -45,12 +38,12 @@ if (!empty($featured_posts)) :
     </div>
 
     <!-- Controls -->
-            <a class="left carousel-control" href="#last-posts" role="button" data-slide="prev">
-            <span class="fa fa-chevron-left fa-fw" aria-hidden="true"></span>
+                    <a class="left carousel-control hidden-xs" href="#last-posts" role="button" data-slide="prev">
+                <span class="fa fa-chevron-left fa-fw" aria-hidden="true"></span>
         <span class="sr-only"><?php _e('Previous', 'wpbscook') ?></span>
     </a>
-    <a class="right carousel-control" href="#last-posts" role="button" data-slide="next">
-        <span class="fa fa-chevron-right fa-fw" aria-hidden="true"></span>
+                    <a class="right carousel-control hidden-xs" href="#last-posts" role="button" data-slide="next">
+                <span class="fa fa-chevron-right fa-fw" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
         </a>
         </div>
