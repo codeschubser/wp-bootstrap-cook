@@ -3,7 +3,7 @@ if (have_posts()) :
     while (have_posts()) : the_post();
         ?>
             <section id="content" class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
-                                <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemscope itemtype="http://schema.org/BlogPosting">
+                <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> itemscope itemtype="http://schema.org/BlogPosting">
                             <header class="entry-header">
                         <?php if (has_post_thumbnail()) : ?>
                             <div class="visible-xs">
