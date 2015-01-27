@@ -2,7 +2,7 @@
  if (have_posts()) : ?>
     <section id="content" class="col-xs-12">
         <header class="page-header">
-                    <h2 class="page-title"><?php _e('Category:', 'wpbscook'); ?> <?php single_cat_title(); ?></h2>
+                    <h2 class="page-title"><?php single_cat_title(); ?></h2>
             </header><!-- .page-header -->
         <div class="row masonry">
         <?php while (have_posts()) : the_post(); ?>

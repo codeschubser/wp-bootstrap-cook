@@ -7,7 +7,7 @@
     </header><!-- /.entry-header -->
 
     <section class="entry-content">
-<?php the_content(__('Read more', 'wpbscook')); ?>
+        <?php the_excerpt(); ?>
     </section><!-- /.entry-content -->
     <?php get_template_part('entry-footer'); ?>
 </article>

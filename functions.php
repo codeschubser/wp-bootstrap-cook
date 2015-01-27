@@ -38,7 +38,7 @@
  * @since WP Bootstrap Cook 1.0
  */
 if (!isset($content_width)) {
-    $content_width = 900;
+    $content_width = 848;
 }
 
 /**
@@ -604,11 +604,11 @@ add_filter('image_send_to_editor', 'wpbscook_add_image_class', 10, 8);
  * @param string $text
  * @return string
  */
-function wpbscook_admin_footer_text($text)
+function wpbscook_add_admin_footer_text($text)
 {
     return $text . ' | <em>Powered by WP Bootstrap Cook Theme</em>';
 }
-add_filter('admin_footer_text', 'wpbscook_admin_footer_text');
+add_filter('admin_footer_text', 'wpbscook_add_admin_footer_text');
 
 /**
  * Modify standard widgets

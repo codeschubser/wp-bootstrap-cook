@@ -4,7 +4,7 @@ if (have_posts()) :
         ?>
             <section id="content" class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
                 <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> itemscope itemtype="http://schema.org/BlogPosting">
-                            <header class="entry-header">
+                    <header class="entry-header">
                         <?php if (has_post_thumbnail()) : ?>
                             <div class="visible-xs">
                                 <?php
@@ -49,32 +49,29 @@ if (have_posts()) :
                                     )
                                 );
                                 ?>
-                                                    </div>
-                                        <?php
-                                        if (get_comments_number()) :
-                                            ?>
-                                            <div class="comment-count pull-right hidden-print">
-                                                <?php
-                                                printf('<a href="%1$s" title="%2$s" class="hidden-print"><span class="fa fa-comments fa-fw"></span></a>',
-                                                    get_comments_link($post->ID),
-                                                    sprintf(_n('One comment', '%s comments',
-                                                            wp_count_comments($post->ID)->approved,
-                                                            'wpbscook'),
-                                                        wp_count_comments($post->ID)->approved)
-                                                );
-                                                ?>
-                                            </div>
-                                            <?php endif;
-                                        ?>
-        <?php endif; ?>
-                        <div class="entry-actions pull-right hidden-xs hidden-print">
-                            <a href="javascript:window.print()" title="<?php
-                    echo sprintf(__('Print: %s', 'wpbscook'), esc_attr(get_the_title()));
-                    ?>">
-                                <span class="fa fa-print fa-2x fa-fw"></span>
+                            </div>
+                            <?php if (get_comments_number()) : ?>
+                            <div class="comment-count pull-right hidden-print">
+                                <?php
+                                printf('<a href="%1$s" title="%2$s" class="hidden-print"><span class="fa fa-comments fa-fw"></span></a>',
+                                    get_comments_link($post->ID),
+                                    sprintf(_n('One comment', '%s comments',
+                                            wp_count_comments($post->ID)->approved,
+                                            'wpbscook'),
+                                        wp_count_comments($post->ID)->approved)
+                                );
+                                ?>
+                            </div>
+                            <?php endif;
+                        endif;
+            ?>
+                                        <!--<div class="entry-actions pull-right hidden-xs hidden-print">
+                                    <a href="javascript:window.print()" title="<?php echo sprintf(__('Print: %s',
+                                'wpbscook'), esc_attr(get_the_title())); ?>">
+                                        <span class="fa fa-print fa-2x fa-fw"></span>
                             </a>
-                        </div>
-                        <h2 class="entry-title" itemprop="headline"><?php the_title(); ?></h2>
+                                        </div>-->
+                                <h2 class="entry-title" itemprop="headline"><?php the_title(); ?></h2>
                     </header><!-- /.entry-header -->
 
                     <section class="entry-content"><?php

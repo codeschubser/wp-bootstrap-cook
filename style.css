@@ -18,10 +18,11 @@
 .gallery-caption {}
 .bypostauthor {}
 .alignright {}
-.alignleft {
+.alignleft, .gallery>.gallery-item {
     float: left;
-    margin: 0 20px 20px 0
+    margin: 0 24px 14px 0
 }
+.gallery>.gallery-item:last-child { margin-right: 0 }
 .aligncenter {}
 
 h3.entry-title a { text-decoration: none }
